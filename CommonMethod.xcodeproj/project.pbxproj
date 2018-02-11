@@ -16,6 +16,7 @@
 		FF08DC792030107300279EC2 /* CommonMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08DC782030107300279EC2 /* CommonMethodTests.m */; };
 		FF08DC842030107300279EC2 /* CommonMethodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08DC832030107300279EC2 /* CommonMethodUITests.m */; };
 		FF08DC93203014E600279EC2 /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08DC92203014E600279EC2 /* NewClass.m */; };
+		FF08DC96203018FA00279EC2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08DC95203018FA00279EC2 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		FF08DC852030107300279EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF08DC91203014E600279EC2 /* NewClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewClass.h; sourceTree = "<group>"; };
 		FF08DC92203014E600279EC2 /* NewClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewClass.m; sourceTree = "<group>"; };
+		FF08DC94203018FA00279EC2 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FF08DC95203018FA00279EC2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				FF08DC6E2030107200279EC2 /* main.m */,
 				FF08DC91203014E600279EC2 /* NewClass.h */,
 				FF08DC92203014E600279EC2 /* NewClass.m */,
+				FF08DC94203018FA00279EC2 /* Person.h */,
+				FF08DC95203018FA00279EC2 /* Person.m */,
 			);
 			path = CommonMethod;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				FF08DC642030107200279EC2 /* ViewController.m in Sources */,
 				FF08DC93203014E600279EC2 /* NewClass.m in Sources */,
+				FF08DC96203018FA00279EC2 /* Person.m in Sources */,
 				FF08DC6F2030107200279EC2 /* main.m in Sources */,
 				FF08DC612030107200279EC2 /* AppDelegate.m in Sources */,
 			);
