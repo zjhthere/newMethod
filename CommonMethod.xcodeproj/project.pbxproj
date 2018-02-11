@@ -15,6 +15,7 @@
 		FF08DC6F2030107200279EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08DC6E2030107200279EC2 /* main.m */; };
 		FF08DC792030107300279EC2 /* CommonMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08DC782030107300279EC2 /* CommonMethodTests.m */; };
 		FF08DC842030107300279EC2 /* CommonMethodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08DC832030107300279EC2 /* CommonMethodUITests.m */; };
+		FF08DC93203014E600279EC2 /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08DC92203014E600279EC2 /* NewClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FF08DC7F2030107300279EC2 /* CommonMethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonMethodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF08DC832030107300279EC2 /* CommonMethodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMethodUITests.m; sourceTree = "<group>"; };
 		FF08DC852030107300279EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF08DC91203014E600279EC2 /* NewClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewClass.h; sourceTree = "<group>"; };
+		FF08DC92203014E600279EC2 /* NewClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				FF08DC6A2030107200279EC2 /* LaunchScreen.storyboard */,
 				FF08DC6D2030107200279EC2 /* Info.plist */,
 				FF08DC6E2030107200279EC2 /* main.m */,
+				FF08DC91203014E600279EC2 /* NewClass.h */,
+				FF08DC92203014E600279EC2 /* NewClass.m */,
 			);
 			path = CommonMethod;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF08DC642030107200279EC2 /* ViewController.m in Sources */,
+				FF08DC93203014E600279EC2 /* NewClass.m in Sources */,
 				FF08DC6F2030107200279EC2 /* main.m in Sources */,
 				FF08DC612030107200279EC2 /* AppDelegate.m in Sources */,
 			);
